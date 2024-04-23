@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+  <head>
+    <title>Page 2</title>
+  </head>
+<body>
+<div>
+  <div class="div">
+    <div class="column">
+      <div class="div-2">
+        <div class="div-3">
+          <div class="div-4">Fur Jackets.</div>
+          <div class="div-5">All Sizes & Colours Available...</div>
+        </div>
+        <div class="div-6">
+          <img src="home.png"
+            class="img-2"
+          />
+          <img src="heart.png"
+            class="img-3"
+          />
+          <img src="apps.png"
+            class="img-4"
+          />
+          <img src="download.png"
+            class="img-5"
+          />
+        </div>
+      </div>
+    </div>
+    <div class="column-2">
+      <img src="FurJackets.jpg"
+        class="img-6"
+      />
+    </div>
+  </div>
+</div>
+<style>
+  body{
+    background-color: #AD8A7F;
+  }
+  .div {
+    gap: 20px;
+    display: flex;
+  }
+  @media (max-width: 991px) {
+    .div {
+      flex-direction: column;
+      align-items: stretch;
+      gap: 0px;
+    }
+  }
+  .column {
+    display: flex;
+    flex-direction: column;
+    line-height: normal;
+    width: 50%;
+    margin-left: 0px;
+  }
+  @media (max-width: 991px) {
+    .column {
+      width: 100%;
+    }
+  }
+  .div-2 {
+    display: flex;
+    margin-top: 49px;
+    flex-grow: 1;
+    flex-direction: column;
+  }
+  @media (max-width: 991px) {
+    .div-2 {
+      max-width: 100%;
+      margin-top: 40px;
+    }
+  }
+  .div-3 {
+    align-self: end;
+    display: flex;
+    width: 392px;
+    max-width: 100%;
+    gap: 0px;
+    font-weight: 700;
+    padding: 0 20px;
+  }
+  .div-4 {
+    color: #451a1a;
+    flex-grow: 1;
+    margin: auto 0;
+    font: italic 32px Inter, sans-serif;
+  }
+  .img {
+    aspect-ratio: 0.73;
+    object-fit: auto;
+    object-position: center;
+    width: 100%;
+  }
+  .div-5 {
+    color: #4b2222;
+    align-self: start;
+    margin-top: 279px;
+    font: italic 24px Inter, sans-serif;
+  }
+  @media (max-width: 991px) {
+    .div-5 {
+      margin-top: 40px;
+    }
+  }
+  .div-6 {
+    align-self: start;
+    display: flex;
+    margin-top: 220px;
+    align-items: center;
+    gap: 20px;
+    justify-content: space-between;
+    padding: 0 20px;
+  }
+  @media (max-width: 991px) {
+    .div-6 {
+      margin-top: 40px;
+    }
+  }
+  .img-2 {
+    aspect-ratio: 1;
+    object-fit: auto;
+    object-position: center;
+    width: 49px;
+    align-self: stretch;
+    margin: auto 0;
+  }
+  .img-3 {
+    aspect-ratio: 1;
+    object-fit: auto;
+    object-position: center;
+    width: 48px;
+    align-self: stretch;
+    margin: auto 0;
+  }
+  .img-4 {
+    aspect-ratio: 1;
+    object-fit: auto;
+    object-position: center;
+    width: 42px;
+    align-self: stretch;
+    margin: auto 0;
+  }
+  .img-5 {
+    aspect-ratio: 1;
+    object-fit: auto;
+    object-position: center;
+    width: 54px;
+    align-self: stretch;
+  }
+  .column-2 {
+    display: flex;
+    flex-direction: column;
+    line-height: normal;
+    width: 50%;
+    margin-left: 20px;
+  }
+  @media (max-width: 991px) {
+    .column-2 {
+      width: 100%;
+    }
+  }
+  .img-6 {
+    aspect-ratio: 0.68;
+    object-fit: auto;
+    object-position: center;
+    width: 339px;
+    stroke-width: 2px;
+    stroke: #250d0d;
+    border-color: #451a1a;
+    border-style: solid;
+    border-width: 20px;
+    background-color: #451a1a;
+  }
+  @media (max-width: 991px) {
+    .img-6 {
+      max-width: 100%;
+      margin-top: 40px;
+    }
+  }
+</style>
+</body>
+</html>

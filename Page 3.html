@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+    <head>
+      <title>Page 3</title>
+    </head>
+    <body>
+      <div class="div">
+        <div class="div-2">
+          <div class="column">
+            <div class="div-3">
+              <div class="div-4">Colour:</div>
+              <div class="div-5">Pink & Blue</div>
+              <div class="div-6">Size:</div>
+              <div class="div-7">Small & Medium</div>
+              <div class="div-8">Starting From -/2999</div>
+            </div>
+          </div>
+          <div class="column-2">
+            <div class="div-9">
+              <img src="WomensJackets.jpg"
+                class="img"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+      <style>
+        body{
+              background-color: AD8A7F;
+            }
+        .div {
+          max-width: 1056px;
+          padding-top: 74px;
+          margin-left: -2px;
+        }
+        .div-2 {
+          gap: 20px;
+          display: flex;
+        }
+        @media (max-width: 991px) {
+          .div-2 {
+            flex-direction: column;
+            align-items: stretch;
+            gap: 0px;
+          }
+        }
+        .column {
+          display: flex;
+          flex-direction: column;
+          line-height: normal;
+          width: 42%;
+          margin-left: 0px;
+        }
+        @media (max-width: 991px) {
+          .column {
+            width: 100%;
+          }
+        }
+        .div-3 {
+          display: flex;
+          flex-direction: column;
+          align-self: stretch;
+          font-size: 24px;
+          font-weight: 700;
+          margin: auto 0;
+          padding: 0 20px;
+        }
+        @media (max-width: 991px) {
+          .div-3 {
+            margin-top: 40px;
+          }
+        }
+        .div-4 {
+          color: #3a1818;
+          font: italic 32px Inter, sans-serif;
+        }
+        .div-5 {
+          color: #2f0f0f;
+          font-family: Inter, sans-serif;
+          font-style: italic;
+          align-self: center;
+          margin-top: 58px;
+        }
+        @media (max-width: 991px) {
+          .div-5 {
+            margin-top: 40px;
+          }
+        }
+        .div-6 {
+          color: #361313;
+          margin-top: 67px;
+          font: italic 32px Inter, sans-serif;
+        }
+        @media (max-width: 991px) {
+          .div-6 {
+            margin-top: 40px;
+          }
+        }
+        .div-7 {
+          color: #2d0d0d;
+          font-family: Inter, sans-serif;
+          font-style: italic;
+          align-self: center;
+          margin-top: 58px;
+        }
+        @media (max-width: 991px) {
+          .div-7 {
+            margin-top: 40px;
+          }
+        }
+        .div-8 {
+          color: #200808;
+          font-family: Inter, sans-serif;
+          font-style: italic;
+          margin-top: 56px;
+        }
+        @media (max-width: 991px) {
+          .div-8 {
+            margin-top: 40px;
+          }
+        }
+        .column-2 {
+          display: flex;
+          flex-direction: column;
+          line-height: normal;
+          width: 58%;
+          margin-left: 20px;
+        }
+        @media (max-width: 991px) {
+          .column-2 {
+            width: 100%;
+          }
+        }
+        .div-9 {
+          border-radius: 50%;
+          background-color: #6a2f2f;
+          display: flex;
+          flex-grow: 1;
+          flex-direction: column;
+          justify-content: center;
+          width: 100%;
+          padding: 64px 33px;
+        }
+        @media (max-width: 991px) {
+          .div-9 {
+            max-width: 100%;
+            margin-top: 40px;
+            padding: 0 20px;
+          }
+        }
+        .img {
+          aspect-ratio: 0.96;
+          object-fit: auto;
+          object-position: center;
+          width: 100%;
+        }
+      </style>
+      
+    </body>
+</html>
